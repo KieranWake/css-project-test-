@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 5px; 
+    padding: 5px; 
+}
+
+body {
+    background-color: #592147;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.nav-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+nav {
+    text-align: center;
+    font-size: large;
+    padding: 16px;
+    margin: 16px; 
+    border: 2px solid white; 
+}
+
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    margin: 16px;
+}
+
