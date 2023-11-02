@@ -7,7 +7,6 @@
 body {
     background-color: #592147;
     overflow: hidden;
-    z-index: 1;
 }
 
 .nav-container {
@@ -18,19 +17,31 @@ body {
 }
 
 nav {
+    position: relative; 
     text-align: center;
     font-size: large;
-    padding: 16px;
-    margin: 16px; 
     border: 2px solid white; 
+    margin: 8px;
+    padding: 8px; 
+    border-radius: 10px;
 }
 
 nav a {
+    position: relative; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     text-decoration: none;
+    padding: 8px; 
+    margin: 8px; 
     color: #fff;
-    padding: 16px;
-    margin: 16px;
+    transition: 3s; 
+    z-index: 1; 
 }
+
+nav a:hover {
+    background-color: #39ff14; 
+    margin: 8px; 
+    padding: 8px; 
+}
+
 
