@@ -58,7 +58,13 @@ h1 {
     text-transform: uppercase;
     padding: 0;
     border: none; 
+    background: none; 
     cursor: pointer;
+    transition: 1s; 
+}
+
+.sign-in:hover {
+    box-shadow: 0 5px 10px #3699;
 }
 
 
